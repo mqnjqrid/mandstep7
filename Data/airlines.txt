@@ -6,8 +6,7 @@ Name 	Name of the airline.
 Alias 	Alias of the airline. For example, All Nippon Airways is commonly known as "ANA".
 IATA 	2-letter IATA code, if available.
 ICAO 	3-letter ICAO code, if available.
-Callsign 	Airline callsign.
-Country 	Country or territory where airline is incorporated.
+Country 	Country or territory where airline is incorporated India.
 Active 	"Y" if the airline is or has until recently been operational, "N" if it is defunct. This field is not reliable: in particular, major airlines that stopped flying long ago, but have not had their IATA code reassigned (eg. Ansett/AN), will incorrectly show as "Y".
 
 The data is ISO 8859-1 (Latin-1) encoded. The special value \N is used for "NULL" to indicate that no value is available, and is understood automatically by MySQL if imported.
@@ -18,3 +17,4 @@ Notes: Airlines with null codes/callsigns/countries generally represent user-add
 412,"Aerolineas Argentinas",\N,"AR","ARG","ARGENTINA","Argentina","Y"
 413,"Arrowhead Airways",\N,"","ARH","ARROWHEAD","United States","N"
 I added this line for practice and I deleted line 16  which said "sample entries" and changed line 10 by adding word "India".
+I added this line for practice in step 7 second time and I deleted line 6 which said "Callsign 	Airline callsign." and I add word India in line 9 which I forgot previously. 
